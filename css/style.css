@@ -107,13 +107,19 @@ header {
 }
 
 .meta-logo {
-    height: 6rem;
-    width: 12rem;
+    height: 8rem;
+    width: 16rem;
 }
 
 #features {
     text-align: center;
     padding: 2em;
+}
+
+#para_headings {
+    margin-left: 24rem !important;
+    margin-right: 24rem;
+    padding: 40px;
 }
 
 #features h2 {
@@ -198,3 +204,49 @@ body {
 main {
     flex: 1;
 }
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+section p {
+    margin-bottom: 1.5em;
+    color: #555;
+    font-size: 1em;
+    line-height: 1.8;
+}
+
+/* Emphasis for Important Text */
+section p strong, section p b {
+    font-weight: bold;
+    color: #333;
+}
+
+section p em, section p i {
+    font-style: italic;
+}
+
+/* Table of Contents Styling */
+
+
+section li {
+    margin-bottom: 0.5em;
+}
+ section ol {
+    padding-bottom: 1em;
+    list-style-position: inside;
+ }
+
+
